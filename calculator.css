@@ -1,0 +1,64 @@
+
+#calci{
+    background-color:black;
+    border:1px solid black;
+    width:480px;
+    height:auto;
+    min-width:480px;
+    padding:5px;
+}
+#heading{
+    position: relative;
+    background-color: #403066;
+    display:block;
+    width:100%;
+    height:50px;
+}
+#heading h1{
+    color:white;
+    position: absolute;
+    font-family:sans-serif;
+    margin-left:30%;
+    bottom:-15px;
+}
+#display{
+    border:1px solid whie;
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: #341c6b;
+    width:100%;
+    height:150px;
+}
+#display p{
+    font-size: 40px;
+}
+#input{
+    height:100%;
+    width:100%;
+    background-color: #341c6b;
+    border:none;
+}
+.size{
+    width:117px;
+    height:50px;
+    font-size: 20px;
+    border:none;
+    margin-top:1px;
+    margin-left:0px;
+    margin-top:4px;
+    outline:none;  
+    color:white;
+}
+.size:hover{
+    background-color: rgb(63, 63, 63);
+}
+#zero{
+    width:238px;
+}
+.side{
+  background-color: #403066
+}
+.mid{
+    background-color: #766799;
+}
